@@ -2,7 +2,7 @@ const btn = document.querySelector('a');
 const stateName = document.querySelector('p');
 
 const r = new rive.Rive({
-  src: 'bird.riv', // your file in GitHub repo
+  src: 'new_file_1.riv', // your file in GitHub repo
   canvas: document.getElementById('canvas'),
   autoplay: true,
   stateMachines: 'State Machine 1',
@@ -38,3 +38,4 @@ const r = new rive.Rive({
     }
   },
 });
+
